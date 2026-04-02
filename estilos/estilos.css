@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezados */
+h1 {
+   color: #e74c3c; 
+}
+h2 { 
+  color: #3498db; 
+}
+h3 {
+   color: #f1c40f; 
+  }
+/* Logo y perfil */
+.logo_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.perfil_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+/* Secciones con colores distintos */
+.perfil_section {
+  background-color: #ffcccc; /* rojo claro */
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.servicios_section {
+  background-color: #ccffcc; /* verde claro */
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.proyecto {
+  background-color: #ccccff; /* azul claro */
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.planes_section {
+  background-color: #fff0b3; /* amarillo claro */
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.formulario_section {
+  background-color: #d9b3ff; /* violeta claro */
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 1px solid #333;
+  padding: 8px;
+}
