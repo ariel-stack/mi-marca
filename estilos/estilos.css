@@ -1,10 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin: 0;
+  margin-top: 160px;
   padding: 0;
 }
-
 /* Encabezados */
 h1 {
    color: #e74c3c; 
@@ -72,14 +71,30 @@ table th, table td {
   padding: 8px;
 }
 div.menu{
-  top:0;
-  width: 50%;
- text-align: center;
- left: 25%;
-max-width: 50%;
-position:fixed;
-    border: 3px solid green;
-    background-color: yellow;
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(24, 145, 10);
+  border: 3px solid black;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  padding: 15px 20px;
+}
+a{
+  text-decoration: none;
+    color: springgreen;
+}
+.menu a:hover{
+    color: blueviolet;
 }
 div.absoluto{
 display:inline-block; 
@@ -87,5 +102,5 @@ display:inline-block;
    background-color: darkgreen;
 }
 hr{
-  border: 1px solid green;
+  border: 1px dashed rgb(0, 0, 0);
 }
